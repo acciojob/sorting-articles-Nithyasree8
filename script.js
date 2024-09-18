@@ -1,4 +1,7 @@
 //your JS code here. If required.
+
+
+document.addEventListener('DOMContentLoaded', () => {
 const bands = [
         'The Plot in You',
         'The Devil Wears Prada',
@@ -34,3 +37,4 @@ const bands = [
         li.textContent = band;
         bandList.appendChild(li);
     });
+	 });
